@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "CleanTab Inbox"
+description = "A calm Indian receipt inbox that extracts tax details from email bills, validates GSTINs, detects duplicates and price rises, and files verified bills to CleanTab."
+version = "1.0.0"
+id = "artifacts/cleantab-inbox"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 23308
+
+[services.development]
+run = "pnpm --filter @workspace/cleantab-inbox run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/cleantab-inbox", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/cleantab-inbox/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "23308"
+BASE_PATH = "/"
