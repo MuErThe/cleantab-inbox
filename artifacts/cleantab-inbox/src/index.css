@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..700&family=Geist:wght@400..700&family=Geist+Mono:wght@400;500&display=swap');
 @import 'tailwindcss';
 @import 'tw-animate-css';
 @plugin "@tailwindcss/typography";
@@ -44,8 +44,23 @@
   --color-sidebar-foreground: hsl(var(--sidebar-foreground));
   --color-sidebar-border: hsl(var(--sidebar-border));
 
+  /* Warm Ledger tokens, mirrored from the CleanTab app. */
+  --color-paper: var(--paper);
+  --color-surface: var(--surface);
+  --color-ink: var(--ink);
+  --color-rule: var(--rule);
+  --color-brand: var(--brand);
+  --color-brand-deep: var(--brand-deep);
+  --color-brand-wash: var(--brand-wash);
+  --color-on-brand: var(--on-brand);
+  --color-hero: var(--hero);
+  --color-sun: var(--sun);
+  --color-coral: var(--coral);
+  --color-sky: var(--sky);
+
   --font-sans: var(--app-font-sans);
   --font-serif: var(--app-font-serif);
+  --font-display: var(--app-font-serif);
   --font-mono: var(--app-font-mono);
 
   --radius-sm: calc(var(--radius) - 4px);
@@ -55,114 +70,197 @@
 }
 
 :root {
-  --button-outline: rgba(0, 0, 0, 0.1);
-  --badge-outline: rgba(0, 0, 0, 0.05);
+  color-scheme: light;
 
-  --opaque-button-border-intensity: -8;
+  /* Warm Ledger: cream paper, hairline rules, emerald as the only strong
+     voice. The hex tokens drive the app's own surfaces; the HSL triples
+     below feed the shadcn components so the two stay in step. */
+  --paper: #faf6ec;
+  --surface: #fffdf6;
+  --ink: #1c1a15;
+  --rule: rgba(28, 26, 21, 0.14);
+  --rule-strong: rgba(28, 26, 21, 0.5);
+  --brand: #059669;
+  --brand-deep: #047857;
+  --brand-wash: rgba(5, 150, 105, 0.09);
+  --on-brand: #fdfbf3;
+  --sun: #d9a514;
+  --sky: #5f97d4;
+  --coral: #d84c3e;
+  --focus-halo: rgba(5, 150, 105, 0.28);
+  --focus-halo-invalid: rgba(216, 76, 62, 0.26);
+  /* Text on brand emerald reaches only 3.6:1, so any surface carrying words
+     uses --brand-deep instead. */
+  --hero: var(--brand-deep);
 
-  --elevate-1: rgba(0, 0, 0, 0.03);
-  --elevate-2: rgba(0, 0, 0, 0.08);
+  --shadow-card:
+    0 1px 2px rgba(28, 26, 21, 0.05), 0 6px 18px rgba(28, 26, 21, 0.07);
+  --shadow-card-sm:
+    0 1px 2px rgba(28, 26, 21, 0.05), 0 3px 10px rgba(28, 26, 21, 0.06);
+  --shadow-device:
+    0 2px 6px rgba(28, 26, 21, 0.08), 0 28px 70px rgba(28, 26, 21, 0.18);
 
-  --background: 42 33% 96%; /* Cream */
-  --foreground: 24 10% 10%; /* Dark Espresso */
+  --background: 43 58% 95%;
+  --foreground: 43 14% 10%;
 
-  --border: 42 10% 88%;
-  --input: 42 10% 88%;
-  --ring: 24 10% 10%;
+  --border: 43 15% 83%;
+  --input: 43 15% 83%;
+  --ring: 161 94% 30%;
 
-  --card: 0 0% 100%;
-  --card-foreground: 24 10% 10%;
-  --card-border: 42 10% 88%;
+  --card: 47 100% 98%;
+  --card-foreground: 43 14% 10%;
+  --card-border: 43 15% 83%;
 
-  --sidebar: 0 0% 100%;
-  --sidebar-foreground: 24 10% 10%;
-  --sidebar-border: 42 10% 88%;
-  --sidebar-primary: 24 10% 10%;
-  --sidebar-primary-foreground: 42 33% 96%;
-  --sidebar-accent: 42 20% 94%;
-  --sidebar-accent-foreground: 24 10% 10%;
-  --sidebar-ring: 24 10% 10%;
+  --sidebar: 47 100% 98%;
+  --sidebar-foreground: 43 14% 10%;
+  --sidebar-border: 43 15% 83%;
+  --sidebar-primary: 163 94% 24%;
+  --sidebar-primary-foreground: 48 71% 97%;
+  --sidebar-accent: 43 58% 95%;
+  --sidebar-accent-foreground: 43 14% 10%;
+  --sidebar-ring: 161 94% 30%;
 
-  --popover: 0 0% 100%;
-  --popover-foreground: 24 10% 10%;
-  --popover-border: 42 10% 88%;
+  --popover: 47 100% 98%;
+  --popover-foreground: 43 14% 10%;
+  --popover-border: 43 15% 83%;
 
-  --primary: 24 10% 10%;
-  --primary-foreground: 42 33% 96%;
+  --primary: 163 94% 24%;
+  --primary-foreground: 48 71% 97%;
 
-  --secondary: 42 20% 90%;
-  --secondary-foreground: 24 10% 10%;
+  --secondary: 43 30% 91%;
+  --secondary-foreground: 43 14% 10%;
 
-  --muted: 42 20% 94%;
-  --muted-foreground: 24 10% 40%;
+  --muted: 43 30% 91%;
+  --muted-foreground: 43 12% 34%;
 
-  --accent: 42 20% 94%;
-  --accent-foreground: 24 10% 10%;
+  --accent: 43 30% 91%;
+  --accent-foreground: 43 14% 10%;
 
-  --destructive: 0 84% 60%;
-  --destructive-foreground: 0 0% 100%;
+  --destructive: 5 66% 48%;
+  --destructive-foreground: 48 71% 97%;
 
-  --chart-1: 12 76% 61%;
-  --chart-2: 173 58% 39%;
-  --chart-3: 197 37% 24%;
-  --chart-4: 43 74% 66%;
-  --chart-5: 27 87% 67%;
+  --app-font-sans:
+    'Geist', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto,
+    Arial, sans-serif;
+  --app-font-serif: 'Fraunces', Georgia, 'Times New Roman', serif;
+  --app-font-mono:
+    'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    'Liberation Mono', 'Courier New', monospace;
 
-  --app-font-sans: 'Plus Jakarta Sans', sans-serif;
-  --app-font-serif: 'Playfair Display', serif;
-  --app-font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  
-  --radius: 0.5rem;
-  
-  --shadow-2xs: 0px 1px 2px 0px rgba(0,0,0,0.02);
-  --shadow-xs: 0px 2px 4px 0px rgba(0,0,0,0.03);
-  --shadow-sm: 0px 4px 8px -2px rgba(0,0,0,0.04);
-  --shadow: 0px 8px 16px -4px rgba(0,0,0,0.05);
-  --shadow-md: 0px 12px 24px -6px rgba(0,0,0,0.06);
-  --shadow-lg: 0px 16px 32px -8px rgba(0,0,0,0.07);
-  --shadow-xl: 0px 24px 48px -12px rgba(0,0,0,0.08);
-  --shadow-2xl: 0px 32px 64px -16px rgba(0,0,0,0.1);
+  --radius: 0.75rem;
 }
 
 .dark {
-  --background: 24 10% 10%;
-  --foreground: 42 33% 96%;
+  color-scheme: dark;
 
-  --border: 24 10% 20%;
-  --input: 24 10% 20%;
-  --ring: 42 33% 96%;
+  --paper: #181611;
+  --surface: #201d16;
+  --ink: #f2ede1;
+  --rule: rgba(242, 237, 225, 0.15);
+  --rule-strong: rgba(242, 237, 225, 0.52);
+  --brand: #10b981;
+  --brand-deep: #34d399;
+  --brand-wash: rgba(52, 211, 153, 0.1);
+  --on-brand: #0c1f18;
+  --sun: #cfa032;
+  --sky: #6fa3d8;
+  --coral: #e06a5e;
+  --focus-halo: rgba(16, 185, 129, 0.3);
+  --focus-halo-invalid: rgba(224, 106, 94, 0.3);
+  --hero: #0f3d2e;
 
-  --card: 24 10% 12%;
-  --card-foreground: 42 33% 96%;
-  --card-border: 24 10% 20%;
+  --shadow-card: 0 1px 2px rgba(0, 0, 0, 0.3), 0 6px 18px rgba(0, 0, 0, 0.28);
+  --shadow-card-sm: 0 1px 2px rgba(0, 0, 0, 0.3), 0 3px 10px rgba(0, 0, 0, 0.26);
+  --shadow-device: 0 2px 6px rgba(0, 0, 0, 0.5), 0 28px 70px rgba(0, 0, 0, 0.6);
 
-  --sidebar: 24 10% 12%;
-  --sidebar-foreground: 42 33% 96%;
-  --sidebar-border: 24 10% 20%;
-  --sidebar-primary: 42 33% 96%;
-  --sidebar-primary-foreground: 24 10% 10%;
-  --sidebar-accent: 24 10% 18%;
-  --sidebar-accent-foreground: 42 33% 96%;
-  --sidebar-ring: 42 33% 96%;
+  --background: 43 17% 8%;
+  --foreground: 42 40% 92%;
 
-  --popover: 24 10% 12%;
-  --popover-foreground: 42 33% 96%;
-  --popover-border: 24 10% 20%;
+  --border: 43 8% 21%;
+  --input: 43 8% 21%;
+  --ring: 160 55% 39%;
 
-  --primary: 42 33% 96%;
-  --primary-foreground: 24 10% 10%;
+  --card: 42 19% 11%;
+  --card-foreground: 42 40% 92%;
+  --card-border: 43 8% 21%;
 
-  --secondary: 24 10% 20%;
-  --secondary-foreground: 42 33% 96%;
+  --sidebar: 42 19% 11%;
+  --sidebar-foreground: 42 40% 92%;
+  --sidebar-border: 43 8% 21%;
+  --sidebar-primary: 158 64% 52%;
+  --sidebar-primary-foreground: 158 44% 8%;
+  --sidebar-accent: 43 10% 18%;
+  --sidebar-accent-foreground: 42 40% 92%;
+  --sidebar-ring: 160 55% 39%;
 
-  --muted: 24 10% 16%;
-  --muted-foreground: 24 10% 60%;
+  --popover: 42 19% 11%;
+  --popover-foreground: 42 40% 92%;
+  --popover-border: 43 8% 21%;
 
-  --accent: 24 10% 20%;
-  --accent-foreground: 42 33% 96%;
+  --primary: 158 64% 52%;
+  --primary-foreground: 158 44% 8%;
 
-  --destructive: 0 62% 30%;
-  --destructive-foreground: 42 33% 96%;
+  --secondary: 43 10% 18%;
+  --secondary-foreground: 42 40% 92%;
+
+  --muted: 43 10% 16%;
+  --muted-foreground: 42 18% 68%;
+
+  --accent: 43 10% 18%;
+  --accent-foreground: 42 40% 92%;
+
+  --destructive: 5 68% 62%;
+  --destructive-foreground: 158 44% 8%;
+}
+
+/* Ledger building blocks, reimplemented here to match the app's idiom: a
+   hairline edge rather than a heavy border, and a soft ambient shadow. */
+@utility border-brutal {
+  border-width: 1px;
+  border-color: var(--rule);
+  border-style: solid;
+}
+
+@utility shadow-brutal {
+  box-shadow: var(--shadow-card);
+}
+
+@utility shadow-brutal-sm {
+  box-shadow: var(--shadow-card-sm);
+}
+
+@utility press {
+  transition:
+    transform 130ms ease,
+    box-shadow 130ms ease,
+    background-color 130ms ease;
+  &:active {
+    transform: scale(0.97);
+  }
+}
+
+/* Amounts: Fraunces with lining tabular figures so money lines up in
+   columns. The ₹ sign is set in the sans, since Fraunces has no U+20B9. */
+@utility font-amount {
+  font-family: var(--app-font-serif);
+  font-variant-numeric: lining-nums tabular-nums;
+  letter-spacing: -0.01em;
+}
+
+@utility rule-strong {
+  border-bottom: 1px solid var(--rule-strong);
+}
+
+@utility rule-dashed {
+  border-top: 1px dashed var(--rule);
+}
+
+@utility no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
 }
 
 @layer base {
@@ -170,56 +268,98 @@
     @apply border-border;
   }
   body {
-    @apply font-sans antialiased bg-background text-foreground;
+    @apply font-sans antialiased;
+    background: var(--paper);
+    color: var(--ink);
   }
-  
-  body::before {
-    content: "";
-    position: fixed;
-    inset: 0;
-    z-index: 9999;
-    pointer-events: none;
-    opacity: 0.12;
-    mix-blend-mode: multiply;
-    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
-  }
-
-  .dark body::before {
-    mix-blend-mode: overlay;
-    opacity: 0.08;
-  }
-  h1, h2, h3, h4, h5, h6 {
-    @apply font-serif tracking-tight;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--app-font-serif);
+    letter-spacing: -0.01em;
   }
 }
 
-@layer utilities {
-  .hover-elevate { position: relative; z-index: 0; }
-  .hover-elevate::after {
-    content: ''; pointer-events: none; position: absolute; inset: 0; border-radius: inherit; z-index: 999;
-  }
-  .hover-elevate:hover::after { background-color: var(--elevate-1); }
-  .border.hover-elevate::after { inset: -1px; }
-  
-  .active-elevate { position: relative; z-index: 0; }
-  .active-elevate::after {
-    content: ''; pointer-events: none; position: absolute; inset: 0; border-radius: inherit; z-index: 999;
-  }
-  .active-elevate:active::after { background-color: var(--elevate-2); }
-  .border.active-elevate::after { inset: -1px; }
+/* Keyboard focus for everything that is not a form control. Several call
+   sites clear the UA outline, so without this a keyboard user could land on
+   a button with nothing visible at all. */
+:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 2px;
+}
 
-  .custom-scrollbar::-webkit-scrollbar {
-    width: 6px;
-    height: 6px;
+:is(input, select, textarea):focus {
+  outline: 3px solid var(--focus-halo);
+  outline-offset: 0;
+}
+:is(input, select, textarea):focus:not([aria-invalid='true']) {
+  border-color: var(--brand);
+}
+:is(input, select, textarea)[aria-invalid='true']:focus {
+  outline-color: var(--focus-halo-invalid);
+}
+
+/* The light bar that travels down the inbox while the bills are read.
+   Decorative, so it goes away for reduced motion. */
+@keyframes scan-sweep {
+  from {
+    top: -15%;
   }
-  .custom-scrollbar::-webkit-scrollbar-track {
-    background: transparent;
+  to {
+    top: 105%;
   }
-  .custom-scrollbar::-webkit-scrollbar-thumb {
-    background: hsl(var(--border));
-    border-radius: 4px;
+}
+
+.scan-line {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 2.5rem;
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    var(--brand-wash),
+    transparent
+  );
+  border-bottom: 1.5px solid var(--brand);
+  animation: scan-sweep 1.4s ease-in-out infinite;
+  pointer-events: none;
+}
+
+@keyframes float-up {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
   }
-  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
-    background: hsl(var(--muted-foreground));
+  to {
+    opacity: 1;
+    transform: none;
   }
+}
+
+.float-up {
+  animation: float-up 260ms ease-out both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .scan-line {
+    display: none;
+  }
+  .float-up {
+    animation: none;
+  }
+}
+
+/* The dark logomark is swapped by CSS, so no wrong-theme logo ever flashes. */
+.logo-dark {
+  display: none;
+}
+.dark .logo-light {
+  display: none;
+}
+.dark .logo-dark {
+  display: block;
 }

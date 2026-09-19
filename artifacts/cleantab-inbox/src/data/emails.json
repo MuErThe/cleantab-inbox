@@ -1,0 +1,242 @@
+[
+  {
+    "id": "em_001",
+    "from": "AWS Billing",
+    "fromEmail": "no-reply-aws@amazon.com",
+    "subject": "Your AWS invoice for July 2026 is available",
+    "receivedAt": "2026-08-03T04:12:00.000Z",
+    "body": "Amazon Web Services India Private Limited\n9th Floor, Block E, Prestige Tech Park, Bengaluru 560103\nGSTIN: 27AADCA4146P1ZD\n\nHello,\n\nYour invoice for the billing period 01 Jul 2026 to 31 Jul 2026 is ready.\n\nInvoice number: AWSIN-2026-07-4471\nInvoice date: 03 Aug 2026\nAccount: 8841-2290-4417\n\nEC2 compute (ap-south-1) .......... Rs. 8,420.00\nS3 storage and requests ........... Rs. 3,180.00\nCloudFront data transfer .......... Rs. 1,640.00\nRoute 53 hosted zones ............. Rs. 760.00\n\nTotal before tax: Rs. 14,000.00\nIGST @18%: Rs. 2,520.00\nTotal for this invoice: Rs. 16,520.00\n\nThe amount has been charged to the card ending 4412.\n\nAWS Billing"
+  },
+  {
+    "id": "em_002",
+    "from": "AWS Billing",
+    "fromEmail": "no-reply-aws@amazon.com",
+    "subject": "Your AWS invoice for August 2026 is available",
+    "receivedAt": "2026-09-03T04:09:00.000Z",
+    "body": "Amazon Web Services India Private Limited\n9th Floor, Block E, Prestige Tech Park, Bengaluru 560103\nGSTIN: 27AADCA4146P1ZD\n\nHello,\n\nYour invoice for the billing period 01 Aug 2026 to 31 Aug 2026 is ready.\n\nInvoice number: AWSIN-2026-08-4712\nInvoice date: 03 Sep 2026\nAccount: 8841-2290-4417\n\nEC2 compute (ap-south-1) .......... Rs. 7,180.00\nS3 storage and requests ........... Rs. 2,910.00\nCloudFront data transfer .......... Rs. 1,340.00\nRoute 53 hosted zones ............. Rs. 670.00\n\nTotal before tax: Rs. 12,100.00\nIGST @18%: Rs. 2,178.00\nTotal for this invoice: Rs. 14,278.00\n\nThe amount has been charged to the card ending 4412.\n\nAWS Billing"
+  },
+  {
+    "id": "em_003",
+    "from": "Zoho Billing",
+    "fromEmail": "billing@zohocorp.com",
+    "subject": "Payment received for Zoho Workplace Standard",
+    "receivedAt": "2026-07-08T06:30:00.000Z",
+    "body": "Zoho Corporation Private Limited\nEstancia IT Park, Chennai 603202\nGSTIN: 33AAACZ2417K1ZE\n\nThank you. Your subscription renewal has gone through.\n\nInvoice: ZOHO-INV-880214\nInvoice date: 08 Jul 2026\nPlan: Zoho Workplace Standard, 3 users, monthly\n\nTotal paid (incl. GST): ₹499.00\nGST @18% (included): ₹76.12\n\nYour next billing date is 08 Aug 2026.\n\nZoho Billing"
+  },
+  {
+    "id": "em_004",
+    "from": "Zoho Billing",
+    "fromEmail": "billing@zohocorp.com",
+    "subject": "Payment received for Zoho Workplace Standard",
+    "receivedAt": "2026-08-08T06:28:00.000Z",
+    "body": "Zoho Corporation Private Limited\nEstancia IT Park, Chennai 603202\nGSTIN: 33AAACZ2417K1ZE\n\nThank you. Your subscription renewal has gone through.\n\nInvoice: ZOHO-INV-894063\nInvoice date: 08 Aug 2026\nPlan: Zoho Workplace Standard, 3 users, monthly\n\nTotal paid (incl. GST): ₹649.00\nGST @18% (included): ₹99.00\n\nYour next billing date is 08 Sep 2026.\n\nZoho Billing"
+  },
+  {
+    "id": "em_005",
+    "from": "Zoho Billing",
+    "fromEmail": "billing@zohocorp.com",
+    "subject": "Payment received for Zoho Workplace Standard",
+    "receivedAt": "2026-09-08T06:31:00.000Z",
+    "body": "Zoho Corporation Private Limited\nEstancia IT Park, Chennai 603202\nGSTIN: 33AAACZ2417K1ZE\n\nThank you. Your subscription renewal has gone through.\n\nInvoice: ZOHO-INV-907715\nInvoice date: 08 Sep 2026\nPlan: Zoho Workplace Standard, 3 users, monthly\n\nTotal paid (incl. GST): ₹649.00\nGST @18% (included): ₹99.00\n\nYour next billing date is 08 Oct 2026.\n\nZoho Billing"
+  },
+  {
+    "id": "em_006",
+    "from": "MakeMyTrip",
+    "fromEmail": "flights@makemytrip.com",
+    "subject": "Booking confirmed: BLR to DEL on 28 Aug",
+    "receivedAt": "2026-08-21T09:12:00.000Z",
+    "body": "MakeMyTrip India Private Limited\nTower A, DLF Cyber City, Gurugram 122002\nGSTIN: 07AAECM5681R1ZO\n\nYour flight is booked.\n\nInvoice: MMT-FL-1002\nInvoice date: 21 Aug 2026\nBengaluru (BLR) to Delhi (DEL), 28 Aug 2026, 06:40\nPassenger: 1 adult\n\nBase fare: ₹8,500.00\nIGST @5%: ₹425.00\nTotal amount paid: ₹8,925.00\n\nPaid by UPI.\n\nMakeMyTrip"
+  },
+  {
+    "id": "em_007",
+    "from": "MakeMyTrip",
+    "fromEmail": "flights@makemytrip.com",
+    "subject": "Booking confirmed: BLR to DEL on 28 Aug",
+    "receivedAt": "2026-08-21T09:17:00.000Z",
+    "body": "MakeMyTrip India Private Limited\nTower A, DLF Cyber City, Gurugram 122002\nGSTIN: 07AAECM5681R1ZO\n\nYour flight is booked.\n\nInvoice: MMT-FL-1007\nInvoice date: 21 Aug 2026\nBengaluru (BLR) to Delhi (DEL), 28 Aug 2026, 06:40\nPassenger: 1 adult\n\nBase fare: ₹8,500.00\nIGST @5%: ₹425.00\nTotal amount paid: ₹8,925.00\n\nPaid by UPI.\n\nMakeMyTrip"
+  },
+  {
+    "id": "em_008",
+    "from": "Pixel Print Studio",
+    "fromEmail": "accounts@pixelprintstudio.in",
+    "subject": "Invoice for business cards and brochure printing",
+    "receivedAt": "2026-08-14T11:40:00.000Z",
+    "body": "Pixel Print Studio\n14, 5th Cross, Indiranagar, Bengaluru 560038\nGSTIN: 29AAFCP7719L1Z9\n\nDear customer,\n\nPlease find the details of your printing order below.\n\nInvoice: PPS-2026-0442\nInvoice date: 14 Aug 2026\n\n500 business cards, matte laminate ...... ₹1,400.00\n250 A4 brochures, 170gsm ................ ₹1,800.00\n\nTaxable value: ₹3,200.00\nCGST @9%: ₹288.00\nSGST @9%: ₹288.00\nTotal payable: ₹3,776.00\n\nPayment received by UPI. Thank you for your business.\n\nPixel Print Studio"
+  },
+  {
+    "id": "em_009",
+    "from": "Hive Coworking",
+    "fromEmail": "billing@hivecoworking.in",
+    "subject": "September desk invoice",
+    "receivedAt": "2026-09-01T05:20:00.000Z",
+    "body": "Hive Coworking\n2nd Floor, 100 Feet Road, Koramangala, Bengaluru 560095\n\nHello,\n\nHere is your invoice for a dedicated hot desk for September 2026.\n\nInvoice: HIVE-2026-09-014\nInvoice date: 01 Sep 2026\n\nDedicated desk, 1 seat, monthly ...... Rs. 10,000.00\nMeeting room credits, 5 hours ........ included\n\nSubtotal: Rs. 10,000.00\nGST @18%: Rs. 1,800.00\nAmount payable: Rs. 11,800.00\n\nPlease transfer to the account on the attached copy.\n\nHive Coworking"
+  },
+  {
+    "id": "em_010",
+    "from": "Notion",
+    "fromEmail": "billing@mail.notion.so",
+    "subject": "Your Notion receipt",
+    "receivedAt": "2026-07-15T18:02:00.000Z",
+    "body": "Notion Labs, Inc.\n2300 Harrison St, San Francisco, CA 94110\n\nReceipt for your Notion Plus plan.\n\nInvoice: NOTION-7741-2026\nInvoice date: 15 Jul 2026\nPlan: Plus, 1 member, monthly\n\nTotal: US$20.00\nCharged to your card: ₹1,776.40 (converted at 1 USD = ₹88.82)\n\nNotion Labs, Inc. is not registered for GST in India, so no Indian tax has been added.\n\nNotion"
+  },
+  {
+    "id": "em_011",
+    "from": "Uber Receipts",
+    "fromEmail": "noreply@uber.com",
+    "subject": "Your Wednesday afternoon trip with Uber",
+    "receivedAt": "2026-08-05T13:24:00.000Z",
+    "body": "Uber India Systems Private Limited\nGSTIN: 29AABCU6223J1Z5\n\nThanks for riding with Uber.\n\nInvoice: UBR-2026-08-77412\nInvoice date: 05 Aug 2026\nKoramangala to MG Road, 8.4 km, 26 min\n\nTrip fare: ₹380.00\nBooking fee: ₹13.00\nGST @5%: ₹19.65\nTotal: ₹412.65\n\nPaid by Uber Cash.\n\nUber"
+  },
+  {
+    "id": "em_012",
+    "from": "Swiggy",
+    "fromEmail": "noreply@swiggy.in",
+    "subject": "Order delivered: Meghana Foods",
+    "receivedAt": "2026-07-19T14:05:00.000Z",
+    "body": "Bundl Technologies Private Limited\nGSTIN: 29AAFCB7288M1ZV\n\nYour order has been delivered. Here is the bill.\n\nOrder: SWG-4471-90218\nOrder date: 19 Jul 2026\nRestaurant: Meghana Foods, Residency Road\n\nItem total: ₹445.00\nDelivery fee: ₹19.00\nGST: ₹22.00\nTotal paid: ₹486.00\n\nPaid by UPI.\n\nSwiggy"
+  },
+  {
+    "id": "em_013",
+    "from": "Swiggy",
+    "fromEmail": "noreply@swiggy.in",
+    "subject": "Order delivered: Truffles",
+    "receivedAt": "2026-09-06T19:48:00.000Z",
+    "body": "Bundl Technologies Private Limited\nGSTIN: 29AAFCB7288M1ZV\n\nYour order has been delivered. Here is the bill.\n\nOrder: SWG-4471-98803\nOrder date: 06 Sep 2026\nRestaurant: Truffles, St Marks Road\n\nItem total: ₹310.00\nDelivery fee: ₹25.00\nGST: ₹17.00\nTotal paid: ₹352.00\n\nPaid by UPI.\n\nSwiggy"
+  },
+  {
+    "id": "em_014",
+    "from": "Airtel",
+    "fromEmail": "ebill@airtel.com",
+    "subject": "Your Airtel postpaid bill for July",
+    "receivedAt": "2026-07-27T02:15:00.000Z",
+    "body": "Bharti Airtel Limited\nGSTIN: 29AAACB2894G1ZJ\n\nYour monthly bill is ready.\n\nInvoice: BA-KA-2026-07-55190\nInvoice date: 27 Jul 2026\nMobile: 98xxxxxx41, Infinity 899 plan\n\nPlan rental: Rs. 899.00\nData add-on: Rs. 1.00\nCurrent charges: Rs. 900.00\nGST @18%: Rs. 162.00\nTotal amount payable: Rs. 1,062.00\n\nDue date: 05 Aug 2026.\n\nAirtel"
+  },
+  {
+    "id": "em_015",
+    "from": "Airtel",
+    "fromEmail": "ebill@airtel.com",
+    "subject": "Your Airtel postpaid bill for August",
+    "receivedAt": "2026-08-27T02:11:00.000Z",
+    "body": "Bharti Airtel Limited\nGSTIN: 29AAACB2894G1ZJ\n\nYour monthly bill is ready.\n\nInvoice: BA-KA-2026-08-61204\nInvoice date: 27 Aug 2026\nMobile: 98xxxxxx41, Infinity 899 plan\n\nPlan rental: Rs. 899.00\nData add-on: Rs. 1.00\nCurrent charges: Rs. 900.00\nGST @18%: Rs. 162.00\nTotal amount payable: Rs. 1,062.00\n\nDue date: 05 Sep 2026.\n\nAirtel"
+  },
+  {
+    "id": "em_016",
+    "from": "Google Workspace",
+    "fromEmail": "payments-noreply@google.com",
+    "subject": "Your Google Workspace invoice is ready",
+    "receivedAt": "2026-08-12T03:40:00.000Z",
+    "body": "Google Cloud India Private Limited\nGSTIN: 29AACCG0527D1Z0\n\nYour invoice for Google Workspace Business Starter.\n\nInvoice: GWS-IN-2026-08-33417\nInvoice date: 12 Aug 2026\nBilling period: 01 Aug 2026 to 31 Aug 2026\nSeats: 5\n\nSubtotal: INR 875.00\nGST @18%: INR 157.50\nTotal: INR 1,032.50\n\nGoogle Workspace"
+  },
+  {
+    "id": "em_017",
+    "from": "IndiGo",
+    "fromEmail": "noreply@goindigo.in",
+    "subject": "E-ticket and tax invoice for 6E 512",
+    "receivedAt": "2026-07-11T07:55:00.000Z",
+    "body": "InterGlobe Aviation Limited\nGSTIN: 07AABCI2726M1ZH\n\nThank you for flying with us.\n\nInvoice: IND-2026-07-88214\nInvoice date: 11 Jul 2026\n6E 512, Bengaluru to Mumbai, 18 Jul 2026\nPNR: J4K2QP\n\nBase fare: ₹5,700.00\nSeat and baggage: ₹400.00\nIGST @5%: ₹305.00\nTotal fare: ₹6,405.00\n\nIndiGo"
+  },
+  {
+    "id": "em_018",
+    "from": "The Park Bengaluru",
+    "fromEmail": "reservations@theparkhotels.com",
+    "subject": "Your folio for the stay from 22 to 24 August",
+    "receivedAt": "2026-08-24T06:02:00.000Z",
+    "body": "Apeejay Surrendra Park Hotels Limited\n14/7 MG Road, Bengaluru 560042\nGSTIN: 29AAACA3132Q1ZI\n\nThank you for staying with us. Your folio is below.\n\nInvoice: TPB-FOLIO-22841\nInvoice date: 24 Aug 2026\nRoom 812, deluxe king, 2 nights\n\nRoom charges: ₹7,500.00\nCGST @6%: ₹450.00\nSGST @6%: ₹450.00\nGrand total: ₹8,400.00\n\nSettled by card ending 4412.\n\nThe Park Bengaluru"
+  },
+  {
+    "id": "em_019",
+    "from": "Razorpay",
+    "fromEmail": "invoices@razorpay.com",
+    "subject": "Your Razorpay fee invoice for August",
+    "receivedAt": "2026-09-02T08:14:00.000Z",
+    "body": "Razorpay Software Private Limited\nGSTIN: 29AAGCR7194N1ZF\n\nHere is your monthly fee invoice.\n\nInvoice: RZP-FEE-2026-08-7719\nInvoice date: 02 Sep 2026\nBilling period: 01 Aug 2026 to 31 Aug 2026\nSettlements processed: 118\n\nPlatform fees: INR 2,340.00\nGST @18%: INR 421.20\nTotal deducted: INR 2,761.20\n\nDeducted from settlements during the period.\n\nRazorpay"
+  },
+  {
+    "id": "em_020",
+    "from": "ClearTax",
+    "fromEmail": "billing@cleartax.in",
+    "subject": "Receipt for your GST return filing plan",
+    "receivedAt": "2026-07-31T12:36:00.000Z",
+    "body": "Defmacro Software Private Limited\nGSTIN: 29AAECD3695F1ZE\n\nPayment received. Thank you.\n\nInvoice: CT-2026-07-41190\nInvoice date: 31 Jul 2026\nPlan: GST filing, quarterly, one registration\n\nProfessional fee: INR 2,999.00\nGST @18%: INR 539.82\nAmount paid: INR 3,538.82\n\nClearTax"
+  },
+  {
+    "id": "em_021",
+    "from": "Hostinger",
+    "fromEmail": "billing@hostinger.in",
+    "subject": "Your hosting renewal receipt",
+    "receivedAt": "2026-07-05T09:18:00.000Z",
+    "body": "Hostinger India Private Limited\nGSTIN: 27AAGCH4471T1ZR\n\nYour hosting plan has renewed.\n\nInvoice: HST-IN-2026-77412\nInvoice date: 05 Jul 2026\nPlan: Business web hosting, 12 months\n\nHosting charges: Rs. 3,600.00\nGST (18%): Rs. 648.00\nTotal: Rs. 4,248.00\n\nHostinger"
+  },
+  {
+    "id": "em_022",
+    "from": "BigBasket",
+    "fromEmail": "orders@bigbasket.com",
+    "subject": "Your BigBasket order has been delivered",
+    "receivedAt": "2026-08-09T07:44:00.000Z",
+    "body": "Supermarket Grocery Supplies Private Limited\nGSTIN: 29AAFCS9066H1ZT\n\nYour groceries have arrived.\n\nOrder: BB-2026-08-551907\nOrder date: 09 Aug 2026\nSlot: 7 am to 9 am\n\nItem total: ₹1,805.20\nGST: ₹42.30\nGrand total: ₹1,847.50\n\nPaid by UPI.\n\nBigBasket"
+  },
+  {
+    "id": "em_023",
+    "from": "Netflix",
+    "fromEmail": "info@mailer.netflix.com",
+    "subject": "Your Netflix payment receipt",
+    "receivedAt": "2026-08-16T01:05:00.000Z",
+    "body": "Netflix Entertainment Services India LLP\nGSTIN: 07AAFCN8283E1Z9\n\nYour subscription has renewed.\n\nInvoice: NFX-IN-2026-08-2214\nInvoice date: 16 Aug 2026\nPlan: Standard, monthly\n\nTotal (incl. GST): ₹649.00\nGST @18% included: ₹99.00\n\nNetflix"
+  },
+  {
+    "id": "em_024",
+    "from": "Apple",
+    "fromEmail": "no_reply@email.apple.com",
+    "subject": "Your receipt from Apple",
+    "receivedAt": "2026-09-15T03:22:00.000Z",
+    "body": "Apple India Private Limited\nGSTIN: 27AABCA9354V1ZR\n\nReceipt for your iCloud+ storage plan.\n\nInvoice: APL-IN-88214771\nInvoice date: 15 Sep 2026\nPlan: iCloud+ 200GB, monthly subscription\n\nTotal: ₹219.00\nGST included (18%): ₹33.41\n\nApple"
+  },
+  {
+    "id": "em_025",
+    "from": "Adobe",
+    "fromEmail": "billing@adobe.com",
+    "subject": "Your Creative Cloud invoice",
+    "receivedAt": "2026-08-18T10:07:00.000Z",
+    "body": "Adobe Systems India Private Limited\nGSTIN: 29AAFCA5118D1ZY\n\nYour Creative Cloud plan has been billed.\n\nInvoice: ADB-IN-2026-08-99031\nInvoice date: 18 Aug 2026\nPlan: Creative Cloud All Apps, monthly subscription\n\nAmount charged: INR 4,937.00\nGST @18% (included in the above): INR 753.10\n\nAdobe"
+  },
+  {
+    "id": "em_026",
+    "from": "Ola",
+    "fromEmail": "receipts@olacabs.com",
+    "subject": "Ride receipt: Indiranagar to Whitefield",
+    "receivedAt": "2026-09-08T04:36:00.000Z",
+    "body": "ANI Technologies Private Limited\nGSTIN: 29AABCA4247K1ZJ\n\nYour ride is complete.\n\nInvoice: OLA-2026-09-33418\nInvoice date: 08 Sep 2026\nIndiranagar to Whitefield, 16.2 km\n\nRide fare: ₹273.00\nGST @5%: ₹13.65\nTotal: ₹286.65\n\nOla"
+  },
+  {
+    "id": "em_027",
+    "from": "Amazon Business",
+    "fromEmail": "order-update@amazon.in",
+    "subject": "Your Amazon Business order has shipped",
+    "receivedAt": "2026-07-22T15:12:00.000Z",
+    "body": "Amazon Seller Services Private Limited\nGSTIN: 29AAGCA2299R1ZS\n\nYour Amazon Business order is on its way.\n\nInvoice: AMZ-B-2026-07-771204\nInvoice date: 22 Jul 2026\n\nErgonomic chair, mesh back .......... Rs. 3,400.00\nA4 paper, 5 reams ................... Rs. 850.00\n\nTaxable value: Rs. 4,250.00\nGST @18%: Rs. 765.00\nAmount charged: Rs. 5,015.00\n\nAmazon Business"
+  },
+  {
+    "id": "em_028",
+    "from": "BESCOM",
+    "fromEmail": "ebill@bescom.karnataka.gov.in",
+    "subject": "Electricity bill for August 2026",
+    "receivedAt": "2026-08-06T05:30:00.000Z",
+    "body": "Bangalore Electricity Supply Company Limited\n\nYour electricity bill is ready.\n\nInvoice: BESCOM-2026-08-4471902\nInvoice date: 06 Aug 2026\nRR number: K-4471-9021, Indiranagar\n\nUnits consumed: 312\nEnergy charges: Rs. 1,980.00\nFixed charges: Rs. 210.00\nTax on electricity: Rs. 150.00\nTotal amount payable: Rs. 2,340.00\n\nGST: not applicable, electricity supply is exempt.\n\nDue date: 20 Aug 2026.\n\nBESCOM"
+  },
+  {
+    "id": "em_029",
+    "from": "WeWork India",
+    "fromEmail": "accounts@wework.co.in",
+    "subject": "Invoice for day passes, September",
+    "receivedAt": "2026-09-16T09:02:00.000Z",
+    "body": "WeWork India Management Private Limited\nGSTIN: 29AAECW6035P1ZM\n\nInvoice for your day passes.\n\nInvoice: WW-IN-2026-09-8841\nInvoice date: 16 Sep 2026\n\nDay pass, Galaxy, 10 passes ...... ₹2,500.00\n\nTaxable value: ₹2,500.00\nCGST @9%: ₹225.00\nSGST @9%: ₹225.00\nAmount payable: ₹2,950.00\n\nWeWork India"
+  },
+  {
+    "id": "em_030",
+    "from": "Zoom",
+    "fromEmail": "billing@zoom.us",
+    "subject": "Your Zoom Pro invoice",
+    "receivedAt": "2026-07-02T11:28:00.000Z",
+    "body": "Zoom Communications India Private Limited\nGSTIN: 27AAGCZ8814L1ZM\n\nYour Zoom Pro plan has been billed.\n\nInvoice: ZM-IN-2026-07-55418\nInvoice date: 02 Jul 2026\nPlan: Pro, 1 host, annual\n\nSubtotal: Rs. 1,600.00\nIGST @18%: Rs. 288.00\nTotal: Rs. 1,888.00\n\nZoom"
+  }
+]
